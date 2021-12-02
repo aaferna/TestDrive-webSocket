@@ -1,0 +1,10 @@
+
+{{#if productos.length}}
+{{#each productos}}
+    <tr>
+        <td>{{this.title}}</td>
+        <td>${{this.price}}</td>
+        <td class="float-right">{{this.thumbnail}}</td>
+    </tr>
+{{/each}}
+{{/if}}
