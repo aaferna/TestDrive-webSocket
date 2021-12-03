@@ -35,7 +35,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(express.static('public'))
 
-const PORT = 8080
+const PORT = 443
 const connectedServer = httpServer.listen(PORT, () => {
     console.log(`Iniciado en ${connectedServer.address().port}`)
 })
